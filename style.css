@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #e63946, #f27121), url('path-to-wave-pattern.svg');
+  padding: 100px 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.hero-section .btn {
+  padding: 12px 24px;
+  transition: transform 0.3s ease;
+}
+.hero-section .btn:hover {
+  transform: scale(1.05);
+}
+#about {
+  background-color: #fcefe3; /* Soft peach */
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+
+/* SKILLS SECTION */
+#skills {
+  background-color: #b993f4; /* Light lavender */
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* PROJECTS SECTION */
+#projects {
+  background-color: #49bb9d; /* White background */
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.badge {
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card-title {
+  font-weight: bold;
+  color: #e63946;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.card-text {
+  font-size: 0.95rem;
+  color: #444;
+}
+/* CONTACT SECTION */
+#contact {
+  background-color: #3d5160; /* Sky blue */
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.badge {
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
